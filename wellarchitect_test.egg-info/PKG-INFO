@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: wellarchitect-test
+Version: 1.0.0
+Summary: Vulnerable Python application for security testing
+Home-page: https://github.com/balazstarnok/wellarchitect-test
+Author: Test
+Author-email: test@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests==2.25.0
+Requires-Dist: flask==1.1.1
+Requires-Dist: urllib3==1.25.8
+Requires-Dist: pyyaml==5.3.1
+Requires-Dist: jinja2==2.11.2
+Requires-Dist: cryptography==2.9
+
+# Wellarchitect Test
+
+Vulnerable Python application for testing.
