@@ -1,0 +1,21 @@
+# More vulnerable dependencies to test import scanning and CVE detection
+# These have known CVEs and will trigger the reachable CVE rule
+
+# Already vulnerable (from original requirements.txt):
+requests==2.25.0  # Known CVEs
+flask==1.1.1  # Known CVEs  
+urllib3==1.25.8  # Known CVEs
+pyyaml==5.3.1  # Known CVEs (YAML deserialization)
+jinja2==2.11.2  # Known CVEs (SSTI)
+cryptography==2.9  # Known CVEs
+
+# Additional vulnerable packages:
+psycopg2==2.8.4  # Old version with CVEs
+pillow==7.0.0  # Very old, has critical CVEs
+django==2.2.0  # Old version with multiple CVEs
+sqlalchemy==1.3.0  # Old version
+lxml==4.5.0  # XML parsing vulnerabilities
+beautifulsoup4==4.8.0  # Older version
+numpy==1.18.0  # Old version
+pandas==1.0.0  # Old version with CVEs
+
